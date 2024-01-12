@@ -1,7 +1,4 @@
-import asyncio
-
 import pandas as pd
-
 import currency
 
 

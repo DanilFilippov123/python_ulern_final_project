@@ -10,6 +10,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/analysis/result/count_jobs_by_year_dynamic_sys_admin.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/analysis/result/job_percent_by_city_sys_admin.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/analysis/result/salary_by_city_sys_admin.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/analysis/result/salary_jobs_by_year_dynamic_all_jobs.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/analysis/result/salary_jobs_by_year_dynamic_sys_admin.csv">
           <value>
             <Attribute>

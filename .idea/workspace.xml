@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8e26ad5-a453-4810-b5e1-eeb755650984" name="Changes" comment="Небольшие расчёт таблиц для &quot;Востребованности&quot;">
+    <list default="true" id="d8e26ad5-a453-4810-b5e1-eeb755650984" name="Changes" comment="Начальные графики для &quot;Востребованности&quot;">
+      <change afterPath="$PROJECT_DIR$/analysis/geography.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis/relevance.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/relevance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/relevance_graphics.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/relevance_graphics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/result/count_jobs_by_year_dynamic_all_jobs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/result/count_jobs_by_year_dynamic_sys_admin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/result/salary_jobs_by_year_dynamic_all_jobs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/result/salary_jobs_by_year_dynamic_sys_admin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/count_jobs_by_year_dynamic_all_jobs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/count_jobs_by_year_dynamic_all_jobs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/count_jobs_by_year_dynamic_sys_admin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/count_jobs_by_year_dynamic_sys_admin.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
     "Python tests.Python tests for test_job_analysis.Test.test_salary_by_year_dynamic.executor": "Run",
     "Python.analysis.executor": "Run",
     "Python.currency.executor": "Run",
+    "Python.geography.executor": "Run",
     "Python.job_analysis.executor": "Run",
     "Python.main.executor": "Run",
     "Python.relevance.executor": "Run",
@@ -208,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704902695688</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Начальные графики для &quot;Востребованности&quot;">
+      <option name="closed" value="true" />
+      <created>1704904274498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704904274498</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,7 +232,8 @@
     <MESSAGE value="Первый коммит" />
     <MESSAGE value="Небольшие функции для анализа" />
     <MESSAGE value="Небольшие расчёт таблиц для &quot;Востребованности&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Небольшие расчёт таблиц для &quot;Востребованности&quot;" />
+    <MESSAGE value="Начальные графики для &quot;Востребованности&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начальные графики для &quot;Востребованности&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -238,13 +245,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/analysis/relevance.py</url>
-          <line>12</line>
+          <line>14</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/analysis/relevance_graphics.py</url>
           <line>6</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/geography.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
