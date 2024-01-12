@@ -9,8 +9,8 @@ def geography(csv_file: str, salary_by_city_file: str, job_percent_by_city_file:
                                          .sort_values(ascending=False, by="name"))
 
     job_percent_by_city.columns = ["count"]
-    job_percent_by_city["percent"] = job_percent_by_city["count"] / len(df)
-    job_percent_by_city.to_csv(job_percent_by_city_file, float_format=lambda x: f"{x:.5f}%")
+    job_percent_by_city["percent"] = (job_percent_by_city["count"] / len(df)) * 100
+    job_percent_by_city.to_csv(job_percent_by_city_file, float_format=lambda x: f"{x:.5f}")
 
     df = df[~(df["salary"].isna()) & (df["salary"] < 100_000_000)]
 
