@@ -59,6 +59,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/analysis/result/skill_by_city_sys_admin.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/analysis/result/skill_by_year_sys_admin.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/analysis/tmp/check.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/analysis/tmp/currency.csv">
           <value>
             <Attribute>

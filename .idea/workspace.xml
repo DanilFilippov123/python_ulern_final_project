@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8e26ad5-a453-4810-b5e1-eeb755650984" name="Changes" comment="Таблицы для &quot;География&quot;">
+    <list default="true" id="d8e26ad5-a453-4810-b5e1-eeb755650984" name="Changes" comment="графики для &quot;География&quot;">
+      <change afterPath="$PROJECT_DIR$/analysis/skills.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/geography.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/geography.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/geography_graphics.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/geography_graphics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/result/job_percent_by_city_all_jobs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/job_percent_by_city_all_jobs.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/result/job_percent_by_city_sys_admin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/job_percent_by_city_sys_admin.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,7 @@
     "Python.main.executor": "Run",
     "Python.relevance.executor": "Run",
     "Python.relevance_graphics.executor": "Run",
+    "Python.skills.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -223,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705083388678</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="графики для &quot;География&quot;">
+      <option name="closed" value="true" />
+      <created>1705088890651</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705088890651</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +249,8 @@
     <MESSAGE value="Небольшие расчёт таблиц для &quot;Востребованности&quot;" />
     <MESSAGE value="Начальные графики для &quot;Востребованности&quot;" />
     <MESSAGE value="Таблицы для &quot;География&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Таблицы для &quot;География&quot;" />
+    <MESSAGE value="графики для &quot;География&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="графики для &quot;География&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -273,7 +280,17 @@
           <line>9</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/skills.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/analysis/skills.py" line="17">
+        <watch expression="w" language="Python" />
+      </inline-watch>
+    </watches-manager>
   </component>
 </project>
