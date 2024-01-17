@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e26ad5-a453-4810-b5e1-eeb755650984" name="Changes" comment="графики для &quot;География&quot;">
-      <change afterPath="$PROJECT_DIR$/analysis/skills.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/result/skill_by_year_all_jobs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/skill_graphics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/skill_by_city_sys_admin.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/skills.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/skills.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,7 @@
     "Python.main.executor": "Run",
     "Python.relevance.executor": "Run",
     "Python.relevance_graphics.executor": "Run",
+    "Python.skill_graphics.executor": "Run",
     "Python.skills.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,6 +60,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/analysis" />
       <recent name="$PROJECT_DIR$/analysis/test" />
     </key>
   </component>
@@ -284,6 +290,16 @@
           <url>file://$PROJECT_DIR$/analysis/skills.py</url>
           <line>10</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/skill_graphics.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/skill_graphics.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -59,7 +59,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/analysis/result/skill_by_city_sys_admin.csv">
+        <entry key="/analysis/result/skill_by_year_all_jobs.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
