@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <article class="main-article">
+            {% if current_article.text %}
+                {{current_article.text|safe}}
+            {%else%}
+                <h1 class="article-title">{{current_article.title}}</h1>
+            {% endif %}
+            <hr>
+            <br>
+            {%if current_article.graphics_and_tables%}
+                {% for graph_table in current_article.graphics_and_tables.all%}
+                    <br>
+                    <h2>{{graph_table.title}}</h2>
+                    <br>
+                    <h3>{{graph_table.table_title}}</h3>
+                    <br>
+                    {{graph_table.table.file.read.decode|safe}}
+                    <br>
+                    <h3>{{graph_table.graphic_title}}</h3>
+                    <br>
+                    <img src="{{graph_table.graphic}}">
+                    <br>
+                {%endfor%}
+            {%endif%}
+    </article>
+{% endblock %}

@@ -17,13 +17,13 @@ def percent_graphic(file_name: str, df: pd.DataFrame, top: int = 10):
 
 def mean_salary_graphic(file_name: str, df: pd.DataFrame, top: int = 10):
     my_dpi = 120
-    plt.figure(figsize=(1700 / my_dpi, 800 / my_dpi), dpi=my_dpi)
+    plt.figure(figsize=(1000 / my_dpi, 800 / my_dpi), dpi=my_dpi)
     plt.ticklabel_format(style="plain")
 
     df["Средняя зарплата"] = df["Средняя зарплата"].astype(int)
     df["Город"] = df["Город"].apply(lambda x: x.split()[0] if len(x) > 20 else x)
     city: pd.DataFrame = df[:top]
-    sns.barplot(hue=city["Город"], data=city, x="Город", y="Средняя зарплата")
+    sns.barplot(hue=city["Город"], data=city, x="Город", y="Средняя зарплата", legend="full").set(xticklabels=[])
     plt.savefig(file_name)
 
 

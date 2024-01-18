@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for job in jobs%}
+        <div class="job">
+            <h2 class="job-name">{{job.name}}</h2>
+            <strong class="job-employer-name">Компания: {{job.employer}}</strong>
+            {%if job.salary%}
+                <br>
+                <strong class="job-salary">Зарплата: {{job.salary.value}} {{job.salary.currency}}</strong>
+            {%endif%}
+            {%if job.area_name%}
+                <br>
+                <strong class="job-area-name">Название региона: {{job.area_name}}</strong>
+            {%endif%}
+            {%if job.published_at%}
+                <br>
+                <strong class="job-published-at">Дату публикации вакансии: {{job.published_at}}</strong>
+            {%endif%}
+            <p class="job-description">{{job.description|safe}}</p>
+            {%if job.key_skills%}
+                <strong class="job-key-skills-title">Ключевые навыки:</strong>
+                <p class="job-key-skills">{{job.key_skills}}</p>
+            {%endif%}
+        </div>
+        <hr>
+    {%endfor%}
+{% endblock %}

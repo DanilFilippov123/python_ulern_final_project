@@ -94,13 +94,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/django/python_final/tables/salary_jobs_by_year_dynamic_all_jobs.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/../ulern/vacancies_for_learn.csv">
           <value>
             <Attribute>

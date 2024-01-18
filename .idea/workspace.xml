@@ -4,25 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8e26ad5-a453-4810-b5e1-eeb755650984" name="Changes" comment="графики для &quot;Навыки&quot;">
-      <change afterPath="$PROJECT_DIR$/django/python_final/sys_admin/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/python_final/sys_admin/templates/main_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/python_final/sys_admin/urls.py" afterDir="false" />
+    <list default="true" id="d8e26ad5-a453-4810-b5e1-eeb755650984" name="Changes" comment="Простенький сайт и модели">
+      <change afterPath="$PROJECT_DIR$/django/python_final/sys_admin/templates/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/python_final/sys_admin/templates/last_jobs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/python_final/sys_admin/utils/hh_json_prepare.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_ulern_final_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_ulern_final_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/file_name.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/geography.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/geography.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/relevance.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/relevance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/result/salary_by_city_all_jobs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/salary_by_city_all_jobs.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/result/salary_by_city_sys_admin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/salary_by_city_sys_admin.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/result/skill_by_year_all_jobs.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/skill_by_year_all_jobs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/result/skill_by_year_sys_admin.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/skill_by_year_sys_admin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/skill_graphics.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/skill_graphics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/skills.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/skills.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/python_final/python_final/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/python_final/python_final/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/python_final/python_final/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/python_final/python_final/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/geography_graphics.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/geography_graphics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/html/count_jobs_by_year_dynamic_all_jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/html/count_jobs_by_year_dynamic_all_jobs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/html/count_jobs_by_year_dynamic_sys_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/html/count_jobs_by_year_dynamic_sys_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/html/job_percent_by_city_all_jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/html/job_percent_by_city_all_jobs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/html/job_percent_by_city_sys_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/html/job_percent_by_city_sys_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/html/salary_by_city_all_jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/html/salary_by_city_all_jobs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/html/salary_by_city_sys_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/html/salary_by_city_sys_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/html/salary_jobs_by_year_dynamic_all_jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/html/salary_jobs_by_year_dynamic_all_jobs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/html/salary_jobs_by_year_dynamic_sys_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/html/salary_jobs_by_year_dynamic_sys_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/html/skill_by_year_all_jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/html/skill_by_year_all_jobs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/html/skill_by_year_sys_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/html/skill_by_year_sys_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/salary_by_city_all_jobs.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/salary_by_city_all_jobs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/salary_by_city_sys_admin.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/salary_by_city_sys_admin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/python_final/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django/python_final/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/python_final/sys_admin/static/left-nav-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/django/python_final/sys_admin/static/left-nav-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/python_final/sys_admin/static/right-nav-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/django/python_final/sys_admin/static/right-nav-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/python_final/sys_admin/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/django/python_final/sys_admin/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/python_final/sys_admin/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/django/python_final/sys_admin/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/python_final/sys_admin/templates/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/django/python_final/sys_admin/templates/main_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/python_final/sys_admin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/python_final/sys_admin/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/python_final/sys_admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/python_final/sys_admin/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +63,7 @@
     "Python tests.Python tests for test_job_analysis.Test.test_salary_by_year_dynamic.executor": "Run",
     "Python.analysis.executor": "Run",
     "Python.currency.executor": "Run",
-    "Python.django.executor": "Debug",
+    "Python.django.executor": "Run",
     "Python.geography.executor": "Run",
     "Python.geography_graphics.executor": "Run",
     "Python.job_analysis.executor": "Run",
@@ -175,7 +183,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705522426581</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Сохранение таблиц в html">
+      <option name="closed" value="true" />
+      <created>1705546551415</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705546551415</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Простенький сайт и модели">
+      <option name="closed" value="true" />
+      <created>1705546601052</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705546601052</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +221,9 @@
     <MESSAGE value="Таблицы для &quot;География&quot;" />
     <MESSAGE value="графики для &quot;География&quot;" />
     <MESSAGE value="графики для &quot;Навыки&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="графики для &quot;Навыки&quot;" />
+    <MESSAGE value="Сохранение таблиц в html" />
+    <MESSAGE value="Простенький сайт и модели" />
+    <option name="LAST_COMMIT_MESSAGE" value="Простенький сайт и модели" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -248,9 +274,14 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/django/python_final/sys_admin/views.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="48" />
+          <url>file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/pydev/_pydevd_bundle/pydevd_comm.py</url>
+          <line>303</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/python_final/sys_admin/utils/hh_json_prepare.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
