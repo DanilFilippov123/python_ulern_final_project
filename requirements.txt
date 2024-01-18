@@ -1,3 +1,4 @@
+pillow
 Django~=5.0.1
 pandas~=2.1.4
 aiohttp~=3.9.1
