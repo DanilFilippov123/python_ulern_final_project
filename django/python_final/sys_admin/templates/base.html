@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'left-nav-style.css' %}">
+</head>
+
+<body>
+    <input type="checkbox" id="nav-toggle" hidden>
+    <nav class="nav">
+        <label for="nav-toggle" class="nav-toggle" onclick></label>
+        <!-- 
+    Здесь размещаете любую разметку,
+    если это меню, то скорее всего неупорядоченный список <ul>
+    -->
+        <h2 class="logo"> 
+            <span>Навигация</span>
+        </h2>
+        <ul>
+            {% for article in articles %}
+                <li><a href="{{ article.get_absolute_url }}">{{article.title}}</a>
+            {% endfor %}
+        </ul>
+    </nav>
+    <main role="main">
+        <article class="main-article">
+            {% if current_article.text %}
+                {{current_article.text|safe}}
+            {%else%}
+                <h1>{{current_article.title}}</h1>
+            {% endif %}
+            {%if current_article.graphics_and_tables%}
+                {% for graph_table in current_article.graphics_and_tables.all%}
+                    <h2>{{graph_table.title}}</h2>
+                    <h3>{{graph_table.table_title}}</h3>
+                    {{graph_table.table.file.read.decode|safe}}
+                    <h3>{{graph_table.graphic_title}}</h3>
+                    <img src="{{graph_table.graphic}}">
+                {%endfor%}
+            {%endif%}
+        </article>
+    </main>
+</body>
+
+</html>

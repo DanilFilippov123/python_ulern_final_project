@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8e26ad5-a453-4810-b5e1-eeb755650984" name="Changes" comment="графики для &quot;География&quot;">
-      <change afterPath="$PROJECT_DIR$/analysis/result/skill_by_year_all_jobs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analysis/skill_graphics.py" afterDir="false" />
+    <list default="true" id="d8e26ad5-a453-4810-b5e1-eeb755650984" name="Changes" comment="графики для &quot;Навыки&quot;">
+      <change afterPath="$PROJECT_DIR$/django/python_final/sys_admin/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/python_final/sys_admin/templates/main_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/python_final/sys_admin/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_ulern_final_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_ulern_final_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/result/skill_by_city_sys_admin.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/file_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/geography.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/geography.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/relevance.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/relevance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/salary_by_city_all_jobs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/salary_by_city_all_jobs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/salary_by_city_sys_admin.csv" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/salary_by_city_sys_admin.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/skill_by_year_all_jobs.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/skill_by_year_all_jobs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/result/skill_by_year_sys_admin.png" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/result/skill_by_year_sys_admin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/skill_graphics.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/skill_graphics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis/skills.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/skills.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/python_final/python_final/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/python_final/python_final/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/python_final/python_final/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/python_final/python_final/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +55,7 @@
     "Python tests.Python tests for test_job_analysis.Test.test_salary_by_year_dynamic.executor": "Run",
     "Python.analysis.executor": "Run",
     "Python.currency.executor": "Run",
+    "Python.django.executor": "Debug",
     "Python.geography.executor": "Run",
     "Python.geography_graphics.executor": "Run",
     "Python.job_analysis.executor": "Run",
@@ -55,6 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/danil/Документы/python/python_ulern_final_project/django/python_final",
     "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
@@ -65,7 +79,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="currency" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="django" type="PythonConfigurationType" factoryName="Python">
       <module name="python_ulern_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,12 +88,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_NAME" value="Python 3.10 (python_ulern_final_project)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/django/python_final" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis/currency.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/django/python_final/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -87,89 +102,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prepare_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_ulern_final_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis/prepare_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="relevance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_ulern_final_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis/relevance.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for analysis.test_salary.Test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_ulern_final_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;analysis.test_salary.Test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for analysis.test.test_salary.Test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python_ulern_final_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;analysis.test.test_salary.Test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.relevance" />
-        <item itemvalue="Python.prepare_data" />
-        <item itemvalue="Python.currency" />
-        <item itemvalue="Python tests.Python tests for analysis.test.test_salary.Test" />
-        <item itemvalue="Python tests.Python tests for analysis.test_salary.Test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -235,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705088890651</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="графики для &quot;Навыки&quot;">
+      <option name="closed" value="true" />
+      <created>1705522426581</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705522426581</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,7 +196,8 @@
     <MESSAGE value="Начальные графики для &quot;Востребованности&quot;" />
     <MESSAGE value="Таблицы для &quot;География&quot;" />
     <MESSAGE value="графики для &quot;География&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="графики для &quot;География&quot;" />
+    <MESSAGE value="графики для &quot;Навыки&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="графики для &quot;Навыки&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,7 +209,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/analysis/relevance.py</url>
-          <line>14</line>
+          <line>16</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -287,19 +228,29 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/analysis/skills.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/analysis/skill_graphics.py</url>
-          <line>25</line>
+          <line>24</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/analysis/skill_graphics.py</url>
           <line>11</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/skills.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysis/geography.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/python_final/sys_admin/views.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
